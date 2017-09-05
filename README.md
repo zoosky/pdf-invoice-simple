@@ -54,6 +54,17 @@ simpleInvoice({
 }).download("invoice.pdf");
 ```
 
+## Build And Test
+
+    npm install -g jspm
+    
+    npm install
+    npm run build
+
+Copy `./dist/pdf-invoice-simple.js` to `./build.js`
+
+    npm run start
+
 ## License
 
 [MIT](LICENSE)
